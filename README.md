@@ -15,3 +15,14 @@ utils/ contains some utility files for each of the tasks
 sleep/ contains the main sleep algorithm used in the paper
 
 dlt_cnn_map_dropout_nobiasnn/ contains the neural network training library (which were not modified) and some iCaRL prediction files (which were modified) for the iCaRL NeM classifier
+
+A link to the repository for the neural network library is here:
+https://github.com/rasmusbergpalm/DeepLearnToolbox
+
+Modifications made to this library were done in the following repository:
+https://github.com/dannyneil/spiking_relu_conversion
+
+To access the CIFAR10 data used in the paper (which were extracted from a VGG net), please see the following Zenodo citation:
+Tadros, Timothy. (2022). CIFAR10 Dataset Used in SRC Paper [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7262424
+
+
